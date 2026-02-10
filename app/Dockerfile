@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY package.json package-lock.json* ./
 
-RUN npm install
+RUN npm ci --include=dev
 
 COPY . .
 
@@ -16,12 +16,12 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY package.json package-lock.json* ./
+COPY package.json package-lock.json ./
 
-RUN npm install --production
+RUN npm ci --only=production
 
-COPY --from=build /app/dist .
+COPY --from=build /app ./
 
 EXPOSE 3000
 
-CMD ["node", "./app.js"]
+CMD ["node", "app.js"] 
