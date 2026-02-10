@@ -1,12 +1,10 @@
-# check=skip=FromAsCasing
-
-FROM node:18 as build
+FROM node:18-alpine AS build
 
 WORKDIR /app
 
-COPY package.json package-lock.json* ./
+COPY package*.json ./
 
-RUN npm ci --include=dev 
+RUN npm install
 
 COPY . .
 
@@ -16,12 +14,12 @@ FROM node:18-alpine
 
 WORKDIR /app
 
-COPY package.json package-lock.json ./
+COPY package*.json ./
 
-RUN npm ci --only=production
+RUN npm install --only=production
 
 COPY --from=build /app ./
 
 EXPOSE 3000
 
-CMD ["node", "app.js"] 
+CMD ["node", "app.js"]  
