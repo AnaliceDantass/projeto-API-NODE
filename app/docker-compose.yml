@@ -3,7 +3,7 @@ version: '3.8'
 services:
   api:
     build: .
-    container_name: projeto-api
+    container_name: api-projeto
     ports:
       - "5000:3000"
     environment:
@@ -19,4 +19,4 @@ volumes:
 
 networks:
   rede-api:
-    driver: bridge
+    driver: bridge 
