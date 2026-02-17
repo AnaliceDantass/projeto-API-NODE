@@ -22,4 +22,4 @@ Para executar a API REST é preciso inicialmente ter o Node.js instalado na sua 
 - **E pronto!** O Node.js estará instalado e pronto para usar na sua máquina.
 
 ## Instalação do Node.js no macOs:
-- **Acesse a página de download do Node.js:** Vá até o [site oficial do Node.js](url).
+- **Acesse a página de download do Node.js:** Vá até o [site oficial do Node.js](https://nodejs.org/en/download/).
