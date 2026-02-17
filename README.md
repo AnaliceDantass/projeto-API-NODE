@@ -26,3 +26,4 @@ Para executar a API REST é preciso inicialmente ter o Node.js instalado na sua 
 - **Baixe o instalador:** Clique no botão "macOS Installer (.pkg)" da versão LTS.
 - **Execute o instalador:** Abra o arquivo .pkg baixado. Siga as instruções do assistente de instalação, clicando em "Continue", aceitando os termos de licença e clicando em "Install". Você precisará digitar sua senha de usuário para autorizar a instalação.
 - **Finalize:** Ao final do processo, o instalador confirmará o sucesso. Você pode fechar a janela.
+
