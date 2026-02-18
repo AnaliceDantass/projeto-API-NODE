@@ -9,7 +9,7 @@ Para executar a API REST é preciso inicialmente ter o Node.js instalado na sua 
 - **Acesse a página de download do Node.js:** Vá até osite oficial do Node.js.
 - **Baixe o instalador:**  Clique no botão "Windows Installer (.msi)" referente à versão LTS. O download começará automaticamente.
 - **Execute o instalador:** Após o download, abra o arquivo .msi. A tela de boas-vindas aparecerá. Clique em "Next".
-- **Aceite os termos de licença:**Marque a caixa de seleção para aceitar os termos e clique em "Next".
+- **Aceite os termos de licença:** Marque a caixa de seleção para aceitar os termos e clique em "Next".
 - **Escolha o local de instalação:** É recomendado manter o caminho padrão. Apenas clique em "Next".
 - **Selecione os componentes:** Na tela de "Custom Setup", certifique-se de que a opção "Add to PATH" esteja selecionada. Isso é fundamental! Deixe todas as outras opções como estão e clique em "Next".
 - **Instale ferramentas adicionais:** O instalador oferecerá a opção de instalar ferramentas necessárias para módulos nativos. Marque essa caixa de aceite. Isso evitará dores de cabeça no futuro ao trabalhar com pacotes mais complexos. Clique em "Next" e, em seguida, em "Install".
@@ -27,4 +27,34 @@ Para executar a API REST é preciso inicialmente ter o Node.js instalado na sua 
 - **Execute o instalador:** Abra o arquivo .pkg baixado. Siga as instruções do assistente de instalação, clicando em "Continue", aceitando os termos de licença e clicando em "Install". Você precisará digitar sua senha de usuário para autorizar a instalação.
 - **Finalize:** Ao final do processo, o instalador confirmará o sucesso. Você pode fechar a janela.
 
-#
+# Clonar repositório para obter todos os arquivos e pastas
+Para poder ter acesso aos arquivos e pastas com os códigos funcionais é preciso clonar o repositório para agilizar esse processo. Diante disso, a ferramenta mais adequada para esse cenário é o Git.
+
+## Instalação do Git no Windows:
+- **Baixe o isntalador:** Acesse o site oficial do Git em https://git-scm.com/ e clique no link de download para o Windows.
+- **Execute o instalador:** Após o download ser concluído, execute o instalador clicando duas vezes no arquivo baixado.
+- **Configuração da Instalação:** Na tela de configuração, você pode optar por usar as configurações padrão ou personalizá-las de acordo com suas preferências. Clique em "Next" para prosseguir.
+- **Seleção de Componentes:** Na próxima tela, deixe todas as opções selecionadas por padrão, a menos que você saiba que não precisará de algum componente específico. Clique em "Next" novamente.
+Seleção do Editor de Texto: Escolha o editor de texto que você deseja associar com o Git. O Notepad++ é uma escolha popular para muitos desenvolvedores, mas você pode selecionar qualquer editor de sua preferência. Clique em "Next".
+- **Definindo as Variáveis de Ambiente:** Na tela seguinte, mantenha a opção padrão selecionada para garantir que o Git seja acessível a partir da linha de comando. Clique em "Next".
+Escolha de HTTPS ou SSH: Na próxima tela, escolha o método que você deseja usar para acessar repositórios remotos. Para a maioria dos usuários, a opção HTTPS é suficiente. Clique em "Next".
+- **Configuração do Terminal:** Selecione o terminal que você prefere usar com o Git. O Git Bash é uma escolha comum para usuários do Windows. Clique em "Next".
+Instalação: Por fim, clique em "Install" para iniciar a instalação do Git no seu sistema.
+- **Conclusão:** Após a conclusão da instalação, você pode abrir o Git Bash ou qualquer outro terminal que você selecionou e começar a usar o Git. Use o comando git --version para verificar se o Git foi instalado corretamente e exibir a versão instalada.
+
+## Instalação do Git no Linux:
+- **Utilizando o Gerenciador de Pacotes:** No Linux, a instalação do Git pode variar dependendo da distribuição que você está usando. No Ubuntu e em distribuições relacionadas, você pode instalar o Git usando o gerenciador de pacotes apt. Abra um terminal e execute o seguinte comando:
+```
+sql
+
+Copy code
+sudo apt-get update sudo apt-get install git 
+```
+- **Confirmação da Instalação:** Durante o processo de instalação, o gerenciador de pacotes solicitará sua confirmação. Digite "Y" e pressione Enter para confirmar a instalação.
+- **Verificação da Instalação:** Após a instalação ser concluída, você pode verificar se o Git foi instalado corretamente digitando o seguinte comando no terminal:
+```
+css
+
+Copy code
+git --version
+``` 
