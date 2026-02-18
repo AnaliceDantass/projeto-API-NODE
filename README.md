@@ -2,7 +2,7 @@
 
 Esse repositório foi feito com o objetivo de armazenar os códigos produzidos na etapa de desenvolvimento da aplicação API REST em Node.js — projeto prático da Unidade 5 da trilha de PSC — e orientar adequadamente por meio de instruções como executar a aplicação feita. E, além disso, ele servirá como um guia de informações necessárias tanto para a execução da API quanto informações relacionadas aos componentes utilizados e demais ferramentas de desenvolvimento. 
 
-# Instalação de ferramentas necessárias 
+# Instalar as ferramentas necessárias 
 Para executar a API REST é preciso inicialmente ter o Node.js instalado na sua máquina, pois ele é o ambiente de execução que permite aos desenvolvedores criarem todo tipo de aplicativos e ferramentas do lado servidor (backend) em JavaScript.
 
 ## Instalação do Node.js no Windows:
@@ -101,4 +101,18 @@ Ele possui um tutorial completo com informações que vão desde à instalação
 ## Ao acessar o VS Code:
 
 - **Abra a pasta:** Abra a pasta clonada no VS Code.
-- **Instale as dependências:** No terminal do próprio VS Code (que pode ser acessado pelo comando Ctrl + ')
+- **Acesse o terminal:** Acesse o terminal do próprio VS Code pelo seguinte comando:
+ ```
+Ctrl + '
+```
+- **Instale as dependências:** Ao ter acessado o terminal, execute o seguinte comando para instalar todas as bibliotecas do projeto baseadas no arquivo package.json:
+```
+npm install 
+```
+- **Execute a aplicação:** Após a instalação, execute o seguinte comando de inicialização:
+```
+npm start
+```
+
+# Pronto!
+Você terá acesso a aplicação API REST e poderá executá-la quando quiser no seu servidor. 
