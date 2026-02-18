@@ -69,3 +69,12 @@ git config --global user.name "Seu Nome" git config --global user.email "seu@ema
 
 ```
 - **Conclusão:** Instalar o Git no Windows e Linux é um processo relativamente simples que abre as portas para uma colaboração eficaz no desenvolvimento de software. Com este guia passo a passo, você pode configurar rapidamente o Git em seu sistema operacional de escolha e começar a aproveitar todos os benefícios que essa poderosa ferramenta tem a oferecer.
+
+## Clonar um repositório:
+
+- **Acessar o Github:** Ao acessar o Github e em seguida acessar a página principal do repositório, você verá acima da lista de arquivos um botão verde com "<> Code". Clique nele.
+- **Copie a URL do repositório:**
+  - Para clonar o repositório usando HTTPS, em "HTTPS", clique no símbolo de copiar.
+  - Para clonar o repositório usando uma chave SSH, incluindo um certificado emitido pela autoridade de certificação SSH da sua organização, clique em SSH e no símbolo de copiar.
+  - Para clonar um repositório usando a GitHub CLI, clique em GitHub CLI e no símbolo de copiar.
+
