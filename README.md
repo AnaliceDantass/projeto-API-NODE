@@ -115,4 +115,4 @@ npm start
 ```
 
 # Pronto!
-Você terá acesso a aplicação API REST e poderá executá-la quando quiser no seu servidor. 
+Você terá acesso à aplicação API REST e poderá executá-la quando quiser no seu servidor. 
