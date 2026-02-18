@@ -48,7 +48,8 @@ Instalação: Por fim, clique em "Install" para iniciar a instalação do Git no
 sql
 
 Copy code
-sudo apt-get update sudo apt-get install git 
+sudo apt-get update sudo apt-get install git
+
 ```
 - **Confirmação da Instalação:** Durante o processo de instalação, o gerenciador de pacotes solicitará sua confirmação. Digite "Y" e pressione Enter para confirmar a instalação.
 - **Verificação da Instalação:** Após a instalação ser concluída, você pode verificar se o Git foi instalado corretamente digitando o seguinte comando no terminal:
@@ -57,4 +58,14 @@ css
 
 Copy code
 git --version
+
 ``` 
+- **Configuração inicial:** Antes de começar a usar o Git, é recomendável configurar seu nome de usuário e endereço de e-mail. Você pode fazer isso executando os seguintes comandos no terminal, substituindo "Seu Nome" e "seu@email.com" pelas suas informações:
+```
+arduino
+
+Copy code
+git config --global user.name "Seu Nome" git config --global user.email "seu@email.com"
+
+```
+- **Conclusão:** Instalar o Git no Windows e Linux é um processo relativamente simples que abre as portas para uma colaboração eficaz no desenvolvimento de software. Com este guia passo a passo, você pode configurar rapidamente o Git em seu sistema operacional de escolha e começar a aproveitar todos os benefícios que essa poderosa ferramenta tem a oferecer.
