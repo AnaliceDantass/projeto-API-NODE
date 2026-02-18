@@ -91,3 +91,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
+# Abrir a pasta no Visual Studio Code (VS Code)
+Após clonar a pasta do projeto é necessário preparar o ambiente de desenvolvimento para executar a aplicação. Assim, é essencial ter um editor de código fonte para poder realizar esse processo. Um editor de código-fonte amplamente conhecido devido à sua flexibilidade e fácil usabilidade é o VS Code, um editor de código-fonte leve, gratuito e de código aberto.
+
+## Instalação do VS Code:
+Caso você não tenha a ferramenta instalada e configurada na sua máquina, acesse o seguinte link: [Configurando o Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview). 
+Ele possui um tutorial completo com informações que vão desde à instalação da ferramenta à configuração dela, juntamente com informações adicionais disponibilizadas pelo próprio site do Visual Studio Code. 
