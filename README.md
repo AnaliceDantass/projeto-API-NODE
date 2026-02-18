@@ -75,14 +75,14 @@ git config --global user.name "Seu Nome" git config --global user.email "seu@ema
   - Para clonar o repositório usando uma chave SSH, incluindo um certificado emitido pela autoridade de certificação SSH da sua organização, clique em SSH e no símbolo de copiar.
   - Para clonar um repositório usando a GitHub CLI, clique em GitHub CLI e no símbolo de copiar.
 
-- **Abra o Git Bash**
+- **Abra o Git Bash.**
 - **Altere o diretório de trabalho atual para o local em que deseja ter o diretório clonado.**
-- **Digite git clone e cole a URL já copiada.**
+- **Digite git clone e cole a URL já copiada:**
 ```
 git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 ```
 
-- **Pressione ENTER para criar seu clone local.**
+- **Pressione ENTER para criar seu clone local:**
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Cloning into `Spoon-Knife`...
@@ -92,7 +92,7 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > Unpacking objects: 100% (10/10), done.
 ```
 # Abrir a pasta no Visual Studio Code (VS Code)
-Após clonar a pasta do projeto é necessário preparar o ambiente de desenvolvimento para executar a aplicação. Assim, é essencial ter um editor de código fonte para poder realizar esse processo. Um editor de código-fonte amplamente conhecido devido à sua flexibilidade e fácil usabilidade é o VS Code, um editor de código-fonte leve, gratuito e de código aberto.
+Após clonar a pasta do projeto é necessário preparar o ambiente de desenvolvimento para executar a aplicação. Assim, é essencial ter um editor de código-fonte para poder realizar esse processo. Um editor de código-fonte amplamente conhecido devido à sua flexibilidade e fácil usabilidade é o Visual Studio Code, um editor de código-fonte leve, gratuito e de código aberto.
 
 ## Instalação do VS Code:
 Caso você não tenha a ferramenta instalada e configurada na sua máquina, acesse o seguinte link: [Configurando o Visual Studio Code](https://code.visualstudio.com/docs/setup/setup-overview). 
