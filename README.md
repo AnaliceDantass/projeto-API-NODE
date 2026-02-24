@@ -113,11 +113,14 @@ npm install
 ```
 npm start
 ```
-
 # Pronto!
 Você terá acesso à aplicação API REST e poderá executá-la quando quiser no seu servidor. 
 
+# Diagrama da arquitetura
+
+
 ## Referências:
+
 
 - [Como instalar o Node.js na sua máquina](
 https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?srsltid=AfmBOopkrIwDZLy5-MmIB8AE7PmDCQUIDkMi82meKo_q-nmC7sWHEKi5
