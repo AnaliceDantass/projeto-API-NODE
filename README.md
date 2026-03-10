@@ -6,7 +6,7 @@ Esse repositório foi feito com o objetivo de armazenar os códigos produzidos n
 Para executar a API REST é preciso inicialmente ter o Node.js instalado na sua máquina, pois ele é o ambiente de execução que permite aos desenvolvedores criarem todo tipo de aplicativos e ferramentas do lado servidor (backend) em JavaScript.
 
 ## Instalação do Node.js no Windows:
-- **Acesse a página de download do Node.js:** Vá até osite oficial do Node.js.
+- **Acesse a página de download do Node.js:** Vá até o site oficial do Node.js.
 - **Baixe o instalador:**  Clique no botão "Windows Installer (.msi)" referente à versão LTS. O download começará automaticamente.
 - **Execute o instalador:** Após o download, abra o arquivo .msi. A tela de boas-vindas aparecerá. Clique em "Next".
 - **Aceite os termos de licença:** Marque a caixa de seleção para aceitar os termos e clique em "Next".
